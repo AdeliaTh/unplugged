@@ -16,6 +16,11 @@ html {
   font-size: 1em;
   line-height: 1.4;
 }
+.hero-image {
+  background-image: url(../img/unplugged-retreat.jpg);
+  height: 500px;
+
+}
 
 /*
  * Remove text-shadow in selection highlight:
