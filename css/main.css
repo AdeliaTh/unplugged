@@ -100,6 +100,7 @@ header {
 
 header .content-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -109,6 +110,10 @@ header nav ul {
   justify-content: space-around;
   
 } 
+
+header li {
+  list-style: none;
+}
 
 footer {
   display: flex;
