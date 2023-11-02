@@ -178,6 +178,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  color: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -508,12 +509,14 @@ header nav {
 }
 
 header nav ul {
+  /* display: flex;
+  flex-direction: row; */
   justify-content: space-between;
 }  
 
 .header-divider {
-  /* display: none; */
-  color: #3a3a3a;
+  display: none;
+
 }
 
 /* Aside */
@@ -571,6 +574,49 @@ footer .contact {
 footer .copyright {
   width: 100%;
 }
+/* ===========================================================
+About Page
+============================================================= 
+*/
+.mission-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.mission-content p {
+  width: 45%;
+
+}
+
+.contact-section .content-wrapper h2 {
+  width: 75%;
+
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+
+/* ========================================================
+FAQ Page
+======================================================== 
+*/
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+.faq-content {
+  flex-basis: 45%;
+}
+.faq h2 {
+  width: 100%;
+}
+
 }
 
 @media only screen and (min-width:1200px) {
