@@ -89,7 +89,6 @@ textarea {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
-  outline: 3px dotted red;
 }
 
 /* ----------------------- Base Header - Footer Styles ---------------------- */
@@ -358,6 +357,7 @@ aside {
   margin: 100px 0;
 }
 
+/* Header */
 header {
   padding: 33px 0;
 }
@@ -433,6 +433,42 @@ header .content-wrapper {
 
   footer .copyright {
     width: 100%
+  }
+
+  /* About Page */
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+  .mission-content p {
+    width: 40%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /* FAQ Page */
+  .faq .content-wrapper {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
   }
 }
 
