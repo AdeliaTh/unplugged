@@ -238,7 +238,7 @@ aside {
     FAQ Page
     =============================================================== */
 
-  .faq {
+.faq {
   display: flex;
   justify-content: center;
 }
@@ -258,7 +258,6 @@ aside {
 .faq-content {
   margin-bottom: 50px;
 }
-
 
 /* ==========================================================================
    Helper classes
@@ -367,26 +366,26 @@ header .content-wrapper {
   justify-content: space-between;  
 }
 
-  header nav {
-    width: 20%;
-  }
+header nav {
+  width: 20%;
+}
 
-  header nav ul {
-    justify-content: space-between;
-  }
+header nav ul {
+  justify-content: space-between;
+}
 
-  .header-divider {
-    display: none;
-  }
-  /* Hero Area */
+.header-divider {
+  display: none;
+}
+/* Hero Area */
 
-  /* Aside */
-  aside .content-wrapper {
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
-  }
+/* Aside */
+aside .content-wrapper {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
@@ -506,18 +505,10 @@ header .content-wrapper {
   /* Features */
   .features h2 {
     width: 90%;
-
   }
   .features article {
-    /* display: flex;
-    align-items: center;
-    flex-flow: column wrap; */
     flex-basis: 33%;
   }
-/* 
-  .features .features-item-description {
-    width: 50%;
-  } */
 
   /* Reviews */
   .reviews article {
@@ -527,14 +518,25 @@ header .content-wrapper {
   .reviews article div {
     width: 42%;
   }
-
-  /* About Page */
+  
+/*  ===============================================================
+    About Page
+    =============================================================== */
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
   } 
   
-}
+/*  ===============================================================
+    FAQ Page
+    =============================================================== */
+  .faq h2 {
+    width: 100%;
+  }
+
+  }
+
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
