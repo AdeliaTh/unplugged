@@ -191,7 +191,6 @@ header nav ul {
 header nav ul li {
   font-size: 1.125em;
   font-weight: bold;
-
 }
 
 footer {
@@ -239,6 +238,11 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background-image: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 /* Aside */
