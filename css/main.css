@@ -115,6 +115,7 @@ h1 {
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.195em;
+  /*Why line height 1.2 in sol. code*/
 }
 
 h2 {
@@ -185,6 +186,9 @@ header figure {
 
 header nav {
   width: 60%;
+  /*Why is font-weight and size on nav and not just li?*/
+  /*Why 700 instead of bold?*/
+  /*Add text-transform here*/
 }
 
 header nav ul {
@@ -196,6 +200,8 @@ header nav ul {
 header nav ul li {
   font-size: 1.125em;
   font-weight: bold;
+  text-transform: uppercase;
+  /*Why isn't it bold here? Instead of header nav?*/
 }
 
 footer {
