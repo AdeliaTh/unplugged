@@ -186,22 +186,20 @@ header figure {
 
 header nav {
   width: 60%;
-  /*Why is font-weight and size on nav and not just li?*/
-  /*Why 700 instead of bold?*/
-  /*Add text-transform here*/
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin: 0;
 }
 
 header nav ul li {
   font-size: 1.125em;
-  font-weight: bold;
-  text-transform: uppercase;
-  /*Why isn't it bold here? Instead of header nav?*/
 }
 
 footer {
@@ -222,7 +220,6 @@ footer .content-wrapper {
 
 .footer .contact {
   margin-bottom: 50px;
-  
 }
 
 footer .social-icons {
@@ -250,8 +247,9 @@ footer .copyright {
   justify-content: center;
   background-image: url('../img/unplugged-retreat.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat #333;
   background-position: center;
+  min-height: 500px;
 }
 
 /* Aside */
