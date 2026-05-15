@@ -501,12 +501,22 @@ header nav ul {
 .header-divider {
   display: none;
 }
+
+header figure {
+  width: 30%;
+}
+
 /* Hero Area */
+
+.hero-area {
+  min-height: 600px;
+}
+
 h1 {
   font-size: 3em;
   line-height: 1em;
+  margin: 0;
 }
-
 
 /* Aside */
 aside .content-wrapper {
@@ -548,12 +558,18 @@ aside .content-wrapper {
     font-size: 2.25em;
     line-height: 1.333em;
   }
-
-  h3 {
-    font-size: 1.5em;
-    line-height:1.25em;
+  .reviews figure {
+    width:50%;
   }
 
+  .reviews article h3 {
+    font-size: 1.5em;
+    line-height:1.25em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+  /*Why h3 at 75%? Doesn't look like it would be -- how would I know?*/
+  }
   /* Footer */
   footer .content-wrapper {
     width: 65%;
@@ -603,6 +619,7 @@ aside .content-wrapper {
     justify-content: space-between;
     align-items: flex-start;
   }
+  /*Why h4 1.5 em in solution code? Don't see difference in font size inc. spec*/
 
 /*  ===============================================================
     FAQ Page
