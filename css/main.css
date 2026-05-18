@@ -619,7 +619,12 @@ aside .content-wrapper {
     justify-content: space-between;
     align-items: flex-start;
   }
-  /*Why h4 1.5 em in solution code? Don't see difference in font size inc. spec*/
+
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
+  
+
 
 /*  ===============================================================
     FAQ Page
