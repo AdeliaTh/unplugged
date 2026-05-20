@@ -721,6 +721,11 @@ aside .content-wrapper {
     width: 95%;
     font-size: 48px;
   } 
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
   
 /*  ===============================================================
     FAQ Page
