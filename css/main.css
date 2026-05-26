@@ -524,7 +524,6 @@ header figure {
 }
 
 /* Hero Area */
-
 .hero-area {
   min-height: 600px;
 }
@@ -536,12 +535,12 @@ h1 {
 }
 
 /* Aside */
-aside .content-wrapper {
-  margin: 50px 0;
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
-}
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
@@ -575,6 +574,7 @@ aside .content-wrapper {
     font-size: 2.25em;
     line-height: 1.333em;
   }
+
   .reviews figure {
     width:50%;
   }
@@ -585,8 +585,8 @@ aside .content-wrapper {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 75%;
-  /*Why h3 at 75%? Doesn't look like it would be -- how would I know?*/
   }
+
   /* Footer */
   footer .content-wrapper {
     width: 65%;
@@ -627,6 +627,21 @@ aside .content-wrapper {
     width: 40%;
   }
 
+  .map figure {
+    position: relative;
+    padding-bottom: 54.688%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -641,8 +656,6 @@ aside .content-wrapper {
     font-size: 1.5em;
   }
   
-
-
 /*  ===============================================================
     FAQ Page
     =============================================================== */
@@ -693,6 +706,7 @@ aside .content-wrapper {
     width: 80%;
     font-size: 3.75em;
   }
+
   /*Aside*/
   aside .content-wrapper {
     justify-content: space-around;
@@ -728,7 +742,6 @@ aside .content-wrapper {
   /*Footer*/
   footer h4 {
     font-size: 30px;
-
   }
 /*  ===============================================================
     About Page
@@ -738,6 +751,21 @@ aside .content-wrapper {
     width: 95%;
     font-size: 48px;
   } 
+
+  .map figure {
+    position: relative;
+    padding-bottom: 46.88%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
   .footer-content {
     display: flex;
