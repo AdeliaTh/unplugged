@@ -350,6 +350,7 @@ input[type=button] {
   position: relative;
   padding-bottom: 125%;
   height: 0;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -359,9 +360,7 @@ input[type=button] {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
-
 
 .contact-section {
   display: flex;
@@ -613,7 +612,7 @@ h1 {
     width: 100%
   }
 
-/* ===================================================================
+  /* ===================================================================
     About Page
    =================================================================== */
   .mission-content {
@@ -628,18 +627,7 @@ h1 {
   }
 
   .map figure {
-    position: relative;
     padding-bottom: 54.688%;
-    height: 0;
-    overflow: hidden;
-  }
-
-  .map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
   }
 
   .contact-section .content-wrapper h2 {
