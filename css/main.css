@@ -218,7 +218,7 @@ footer .content-wrapper {
   width: 55%;
 }
 
-.footer .contact {
+footer .contact {
   margin-bottom: 50px;
 }
 
@@ -311,8 +311,9 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.features-items .fontawesome-icon {
-  font-size: 60px;
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
