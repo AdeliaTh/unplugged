@@ -233,7 +233,17 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background:#527158;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
+
+footer.social-icons p i {
+  font-size: 1.3125em;
+}
+
+/* put in social-icons p i at 21px*/
 
 footer .copyright {
   margin: 20px 0;
