@@ -357,6 +357,10 @@ input[type=button] {
   background-color: #527158;
 }
 
+.mission h2 {
+  margin-top: 0;
+}
+
 .map figure {
   position: relative;
   padding-bottom: 125%;
@@ -377,6 +381,10 @@ input[type=button] {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
+}
+
+.contact-section h2 {
+  margin-top: 0;
 }
 
 .contact-content p {
@@ -402,6 +410,7 @@ input[type=button] {
 }
 
 .faq h2 {
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -611,6 +620,12 @@ h1 {
   footer .contact {
     margin-bottom: 0;
   }
+
+  footer .social {
+    /*DECIDE RE % OR EM/
+    width: 12em;
+  }
+
   footer h4 {
     font-size: 1.5em;
   }
