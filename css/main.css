@@ -622,7 +622,7 @@ h1 {
   }
 
   footer .social {
-    /*DECIDE RE % OR EM*/
+    /*DECIDE RE % OR EM/
     width: 12em;
   }
 
@@ -795,7 +795,7 @@ h1 {
     font-size: 48px;
   }
 
-  faq-content h4 {
+  .faq-content h4 {
     font-size: 1.125em;
     line-height: 1em;
   }
@@ -877,3 +877,4 @@ h1 {
   }
 }
 
+}
