@@ -95,7 +95,7 @@ body {
   font-size: 1em;
   font-family: "Open Sans", sans-serif;
   color: #e2e3ed
-  /* Check about text-align here */
+    /* Check about text-align here */
 }
 
 ul,
@@ -124,7 +124,7 @@ h2 {
   font-weight: 500;
 }
 
-h3, 
+h3,
 h4 {
   font-family: "Poppins", sans-serif;
   font-size: 1.125em;
@@ -205,10 +205,10 @@ header nav ul li {
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   text-align: center;
   background-color: #202322;
-} 
+}
 
 footer p {
   margin: 0;
@@ -233,7 +233,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:#527158;
+  background: #527158;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -300,7 +300,7 @@ input[type=button] {
   display: flex;
   background-image: url(../img/unplugged-retreat-features.jpg);
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
 }
@@ -311,7 +311,7 @@ input[type=button] {
 
 .features article {
   width: 62%;
-  margin:  30px 0;
+  margin: 30px 0;
 }
 
 .features .features-items {
@@ -416,7 +416,7 @@ input[type=button] {
 
 .faq-content {
   margin-bottom: 50px;
-  
+
 }
 
 /* ==========================================================================
@@ -510,50 +510,50 @@ input[type=button] {
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
 
-/* General Styles */
-.content-wrapper {
-  max-width: 640px;
-  margin: 100px 0;
-}
+  /* General Styles */
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
 
-/* Header */
-header {
-  padding: 33px 0;
-}
+  /* Header */
+  header {
+    padding: 33px 0;
+  }
 
-header .content-wrapper {
-  width: 100%;
-  justify-content: space-between;  
-}
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
 
-header nav {
-  width: 20%;
-}
+  header nav {
+    width: 20%;
+  }
 
-header nav ul {
-  justify-content: space-between;
-}
+  header nav ul {
+    justify-content: space-between;
+  }
 
-.header-divider {
-  display: none;
-}
+  .header-divider {
+    display: none;
+  }
 
-header figure {
-  width: 30%;
-}
+  header figure {
+    width: 30%;
+  }
 
-/* Hero Area */
-.hero-area {
-  min-height: 600px;
-}
+  /* Hero Area */
+  .hero-area {
+    min-height: 600px;
+  }
 
-h1 {
-  font-size: 3em;
-  line-height: 1em;
-  margin: 0;
-}
+  h1 {
+    font-size: 3em;
+    line-height: 1em;
+    margin: 0;
+  }
 
-/* Aside */
+  /* Aside */
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -595,12 +595,12 @@ h1 {
   }
 
   .reviews figure {
-    width:50%;
+    width: 50%;
   }
 
   .reviews article h3 {
     font-size: 1.5em;
-    line-height:1.25em;
+    line-height: 1.25em;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 75%;
@@ -622,7 +622,6 @@ h1 {
   }
 
   footer .social {
-    /*DECIDE RE % OR EM/
     width: 12em;
   }
 
@@ -669,8 +668,8 @@ h1 {
   .contact-content h4 {
     font-size: 1.5em;
   }
-  
-/*  ===============================================================
+
+  /*  ===============================================================
     FAQ Page
     =============================================================== */
   .faq .content-wrapper {
@@ -753,19 +752,20 @@ h1 {
   .reviews article div {
     width: 42%;
   }
-  
+
   /*Footer*/
   footer h4 {
     font-size: 30px;
   }
-/*  ===============================================================
+
+  /*  ===============================================================
     About Page
     =============================================================== */
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 48px;
-  } 
+  }
 
   .map figure {
     position: relative;
@@ -786,8 +786,8 @@ h1 {
     display: flex;
     justify-content: space-between;
   }
-  
-/*  ===============================================================
+
+  /*  ===============================================================
     FAQ Page
     =============================================================== */
   .faq h2 {
@@ -809,6 +809,7 @@ h1 {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -877,4 +878,3 @@ h1 {
   }
 }
 
-}
