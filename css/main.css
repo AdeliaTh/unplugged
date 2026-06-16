@@ -257,7 +257,6 @@ footer .copyright {
   justify-content: center;
   background-image: url('../img/unplugged-retreat.jpg');
   background-size: cover;
-  background-repeat: no-repeat #333;
   background-position: center;
   min-height: 500px;
 }
