@@ -94,7 +94,7 @@ html {
 body {
   font-size: 1em;
   font-family: "Open Sans", sans-serif;
-  color: #e2e3ed
+  color: #E9EAF1;
     /* Check about text-align here */
 }
 
@@ -124,6 +124,7 @@ h2 {
   font-weight: 500;
 }
 
+.form-description h2, 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
@@ -729,6 +730,7 @@ input[type=button] {
     width: 30%;
   }
 
+  .form-description h2
   aside h3 {
     font-size: 30px;
   }
