@@ -95,7 +95,7 @@ body {
   font-size: 1em;
   font-family: "Open Sans", sans-serif;
   color: #E9EAF1;
-    /* Check about text-align here */
+  text-align: left;
 }
 
 ul,
@@ -114,17 +114,20 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 2.25em;
   font-weight: 500;
-  line-height: 1.195em;
+  line-height: 1.2em;
   /*Why line height 1.2 in sol. code*/
 }
 
+.mission h1,
 h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
-.form-description h2, 
+.form-description h2,
+.faq h2, 
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
@@ -136,7 +139,6 @@ h4 {
 p {
   font-size: 0.875em;
   line-height: 1.285;
-
 }
 
 img {
@@ -145,12 +147,10 @@ img {
 
 figure {
   margin: 0;
-
 }
 
 address {
   font-style: normal;
-
 }
 
 .content-wrapper {
@@ -279,6 +279,7 @@ input[type=text] {
   color: #2a423a;
   font-style: italic;
   padding: 1em;
+  margin-top: 10px;
 }
 
 input[type=button] {
@@ -409,14 +410,19 @@ input[type=button] {
   margin: 50px 0 0 0;
 }
 
-.faq h2 {
+.faq h1 {
   margin-top: 0;
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
 
+.faq-content h2,
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
@@ -516,6 +522,19 @@ input[type=button] {
     margin: 100px 0;
   }
 
+  .mission h1,
+  .faq h1, 
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.333;
+  }
+
+  .form-description h2,
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+
   /* Header */
   header {
     padding: 33px 0;
@@ -559,6 +578,7 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
+    align-items: center;
   }
 
   aside .content-wrapper .form-description,
@@ -625,8 +645,10 @@ input[type=button] {
     width: 12em;
   }
 
+  footer h3,
   footer h4 {
     font-size: 1.5em;
+    margin-bottom: 40px;
   }
 
   footer p {
@@ -665,6 +687,7 @@ input[type=button] {
     align-items: flex-start;
   }
 
+  .contact-content h3,
   .contact-content h4 {
     font-size: 1.5em;
   }
@@ -681,15 +704,13 @@ input[type=button] {
     flex-basis: 45%;
   }
 
+  .faq h1,
   .faq h2 {
     width: 100%;
   }
 
-  .faq h4 {
-    font-size: .875em;
-    line-height: 1.125em;
-  }
-
+  .faq h2,
+  .faq h4 
   .faq p {
     font-size: .875em;
     line-height: 1.125em;
@@ -755,8 +776,9 @@ input[type=button] {
   }
 
   /*Footer*/
+  footer h3,
   footer h4 {
-    font-size: 30px;
+    font-size: 1.875em
   }
 
   /*  ===============================================================
@@ -768,21 +790,6 @@ input[type=button] {
     font-size: 48px;
   }
 
-  .map figure {
-    position: relative;
-    padding-bottom: 46.88%;
-    height: 0;
-    overflow: hidden;
-  }
-
-  .map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-
   .footer-content {
     display: flex;
     justify-content: space-between;
@@ -791,14 +798,11 @@ input[type=button] {
   /*  ===============================================================
     FAQ Page
     =============================================================== */
-  .faq h2 {
-    width: 100%;
-    font-size: 48px;
-  }
-
-  .faq-content h4 {
+  .faq h2,
+  .faq h4,
+  .faq p {
     font-size: 1.125em;
-    line-height: 1em;
+    line-height: 1;
   }
 }
 
